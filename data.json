@@ -9,5 +9,60 @@
     "hora": "19:30",
     "tema": "Job Interviews — Part 2"
   },
-  "recado": "Você usou conectores novos sem perceber. Isso é evolução real."
+  "recado": "Você usou conectores novos sem perceber. Isso é evolução real.",
+  "vocabulario": [
+    {
+      "palavra": "however",
+      "traducao": "no entanto, porém",
+      "exemplo": "I was nervous. However, I managed to answer all questions.",
+      "aula": "Conectores e Fluência"
+    },
+    {
+      "palavra": "although",
+      "traducao": "embora, apesar de",
+      "exemplo": "Although it was my first interview, I felt prepared.",
+      "aula": "Conectores e Fluência"
+    },
+    {
+      "palavra": "colleagues",
+      "traducao": "colegas de trabalho",
+      "exemplo": "I enjoy working with my colleagues on collaborative projects.",
+      "aula": "Vocabulário Profissional"
+    },
+    {
+      "palavra": "to conduct",
+      "traducao": "conduzir, realizar",
+      "exemplo": "She was able to conduct the entire interview in English.",
+      "aula": "Job Interviews — Part 1"
+    },
+    {
+      "palavra": "strengths and weaknesses",
+      "traducao": "pontos fortes e fracos",
+      "exemplo": "Tell me about your strengths and weaknesses.",
+      "aula": "Job Interviews — Part 1"
+    },
+    {
+      "palavra": "to be in charge of",
+      "traducao": "ser responsável por",
+      "exemplo": "I was in charge of the social media strategy.",
+      "aula": "Vocabulário Profissional"
+    }
+  ],
+  "historico": [
+    {
+      "data": "07 Mai",
+      "tema": "Job Interviews — Part 1",
+      "observacao": "Conduziu a simulação de entrevista do início ao fim sem travar. Grande salto."
+    },
+    {
+      "data": "30 Abr",
+      "tema": "Conectores e Fluência",
+      "observacao": "Usou however e although de forma natural pela primeira vez."
+    },
+    {
+      "data": "23 Abr",
+      "tema": "Vocabulário Profissional",
+      "observacao": "Incorporou 8 expressões novas. Pronúncia de 'colleagues' corrigida."
+    }
+  ]
 }

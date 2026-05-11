@@ -16,9 +16,9 @@
     </div>
 
     <nav>
-      <strong>Painel</strong>
+      <span class="nav-link active" data-view="painel">Painel</span>
       <span>Aulas</span>
-      <span>Vocabulário</span>
+      <span class="nav-link" data-view="vocabulario">Vocabulário</span>
       <span>Gravações</span>
       <span>Biblioteca</span>
     </nav>
@@ -30,49 +30,51 @@
   </header>
 
   <main>
-    <div class="date" id="today">Carregando...</div>
+    <div id=”view-painel”>
+      <div class=”date” id=”today”>Carregando...</div>
 
-    <h1>Olá,<br><span id="student-name">aluna</span>.</h1>
+      <h1>Olá,<br><span id=”student-name”>aluna</span>.</h1>
 
-    <section class="grid">
-      <div class="card">
-        <div class="label">Seu objetivo principal</div>
-        <p id="student-goal">Carregando objetivo...</p>
-      </div>
+      <section class=”grid”>
+        <div class=”card”>
+          <div class=”label”>Seu objetivo principal</div>
+          <p id=”student-goal”>Carregando objetivo...</p>
+        </div>
 
-      <div class="card">
-        <div class="label">Nível atual</div>
-        <div class="level" id="student-level">--</div>
-        <p>Intermediário</p>
-      </div>
+        <div class=”card”>
+          <div class=”label”>Nível atual</div>
+          <div class=”level” id=”student-level”>--</div>
+          <p>Intermediário</p>
+        </div>
 
-      <div class="card dark">
-        <div class="label">Próxima aula</div>
-        <h2 id="next-class-title">Carregando...</h2>
-        <p><span id="next-class-date"></span> · <span id="next-class-time"></span></p>
-        <a class="button" href="#">Entrar na sala</a>
-      </div>
+        <div class=”card dark”>
+          <div class=”label”>Próxima aula</div>
+          <h2 id=”next-class-title”>Carregando...</h2>
+          <p><span id=”next-class-date”></span> · <span id=”next-class-time”></span></p>
+          <a class=”button” href=”#”>Entrar na sala</a>
+        </div>
 
-      <div class="card">
-        <div class="label">Metas de fala</div>
-        <p>Eliminar “how do you say...?” durante a aula</p>
-        <div class="progress"><div></div></div>
-      </div>
+        <div class=”card”>
+          <div class=”label”>Metas de fala</div>
+          <p>Eliminar “how do you say...?” durante a aula</p>
+          <div class=”progress”><div></div></div>
+        </div>
 
-      <div class="card note wide">
-        <div class="label">Recado da Ms. Alice</div>
-        <p id="teacher-note">Carregando recado...</p>
-      </div>
-    </section>
+        <div class=”card note wide”>
+          <div class=”label”>Recado da Ms. Alice</div>
+          <p id=”teacher-note”>Carregando recado...</p>
+        </div>
+      </section>
 
-    <div class="section-title">Notas de progresso</div>
+      <div class=”section-title”>Histórico de aulas</div>
 
-    <section class="card">
-      <p>
-        Pronúncia, confiança, vocabulário incorporado e pequenos saltos de autonomia
-        vão aparecer aqui conforme as aulas forem registradas.
-      </p>
-    </section>
+      <section id=”historico”></section>
+    </div>
+
+    <div id=”view-vocabulario” hidden>
+      <h1>Vocab<br>ulário.</h1>
+      <div id=”lista-vocabulario”></div>
+    </div>
   </main>
 
   <script src=”script.js”></script>
