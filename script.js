@@ -1,7 +1,7 @@
 async function carregarDados() {
   try {
     const resposta = await fetch('data.json');
-    if (!resposta.ok) throw new Error('HTTP ' + resposta.status);
+    if (!resposta.ok) throw new Error('Arquivo não encontrado (HTTP ' + resposta.status + ')');
     const dados = await resposta.json();
 
     document.getElementById('student-name').textContent = dados.aluna.nome + ".";
@@ -50,7 +50,7 @@ async function carregarDados() {
     });
 
   } catch (erro) {
-    console.error('Erro ao carregar dados:', erro);
+    document.getElementById('today').textContent = 'ERRO: ' + erro.message;
   }
 }
 
