@@ -52,6 +52,17 @@ nav {
   text-transform: uppercase;
 }
 
+.nav-link {
+  cursor: pointer;
+}
+
+.nav-link.active {
+  font-weight: 900;
+  color: var(--green);
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 2px;
+}
+
 .student {
   text-align: right;
   font-weight: 800;
@@ -182,6 +193,49 @@ p {
   font-weight: 900;
 }
 
+#lista-vocabulario {
+  display: grid;
+  gap: 16px;
+}
+
+.vocab-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.vocab-palavra {
+  font-size: 28px;
+  font-weight: 900;
+  text-transform: lowercase;
+  letter-spacing: -0.5px;
+  color: var(--green);
+}
+
+.vocab-traducao {
+  color: var(--gold);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.vocab-exemplo {
+  font-size: 16px;
+  font-style: italic;
+  color: #4a5e52;
+  margin: 4px 0 0;
+}
+
+.vocab-aula {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--rose);
+  font-weight: 800;
+  margin-top: 4px;
+}
+
 #historico {
   display: flex;
   flex-direction: column;
@@ -227,6 +281,12 @@ p {
 
   .historico-tema {
     min-width: 260px;
+  }
+}
+
+@media (min-width: 800px) {
+  #lista-vocabulario {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
