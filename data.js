@@ -12,40 +12,28 @@ var dados = {
   "recado": "Você usou conectores novos sem perceber. Isso é evolução real.",
   "vocabulario": [
     {
-      "palavra": "however",
-      "traducao": "no entanto, porém",
-      "exemplo": "I was nervous. However, I managed to answer all questions.",
-      "aula": "Conectores e Fluência"
+      "palavra": "to come up with",
+      "pronuncia": "/kʌm ʌp wɪð/",
+      "explicacao": "surgir com / pensar em uma ideia",
+      "exemplo": "She came up with a great answer during the interview.",
+      "aula": "08/05 — Job Interviews Part 1",
+      "status": "revisando"
     },
     {
-      "palavra": "although",
-      "traducao": "embora, apesar de",
-      "exemplo": "Although it was my first interview, I felt prepared.",
-      "aula": "Conectores e Fluência"
+      "palavra": "overwhelmed",
+      "pronuncia": "/ˌouˈvərˈwelmd/",
+      "explicacao": "sobrecarregada",
+      "exemplo": "I felt overwhelmed by the workload.",
+      "aula": "24/04 — Active listening at work",
+      "status": "incorporado"
     },
     {
-      "palavra": "colleagues",
-      "traducao": "colegas de trabalho",
-      "exemplo": "I enjoy working with my colleagues on collaborative projects.",
-      "aula": "Vocabulário Profissional"
-    },
-    {
-      "palavra": "to conduct",
-      "traducao": "conduzir, realizar",
-      "exemplo": "She was able to conduct the entire interview in English.",
-      "aula": "Job Interviews — Part 1"
-    },
-    {
-      "palavra": "strengths and weaknesses",
-      "traducao": "pontos fortes e fracos",
-      "exemplo": "Tell me about your strengths and weaknesses.",
-      "aula": "Job Interviews — Part 1"
-    },
-    {
-      "palavra": "to be in charge of",
-      "traducao": "ser responsável por",
-      "exemplo": "I was in charge of the social media strategy.",
-      "aula": "Vocabulário Profissional"
+      "palavra": "to roll out",
+      "pronuncia": "/roʊl aʊt/",
+      "explicacao": "lançar / implementar",
+      "exemplo": "The company will roll out a new training program.",
+      "aula": "05/05 — Phrasal verbs no trabalho",
+      "status": "novo"
     }
   ],
   "historico": [

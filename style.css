@@ -204,6 +204,33 @@ p {
   gap: 6px;
 }
 
+.vocab-status {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 99px;
+  align-self: flex-start;
+  margin-bottom: 6px;
+}
+
+.status-novo {
+  background: var(--gold);
+  color: var(--green);
+}
+
+.status-revisando {
+  background: var(--rose);
+  color: white;
+}
+
+.status-incorporado {
+  background: var(--green);
+  color: var(--cream);
+}
+
 .vocab-palavra {
   font-size: 28px;
   font-weight: 900;
@@ -212,12 +239,21 @@ p {
   color: var(--green);
 }
 
-.vocab-traducao {
+.vocab-pronuncia {
+  font-size: 14px;
+  color: #7f877e;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+}
+
+.vocab-explicacao {
   color: var(--gold);
   font-size: 13px;
   font-weight: 800;
   letter-spacing: 2px;
   text-transform: uppercase;
+  margin-top: 4px;
 }
 
 .vocab-exemplo {
@@ -233,7 +269,7 @@ p {
   text-transform: uppercase;
   color: var(--rose);
   font-weight: 800;
-  margin-top: 4px;
+  margin-top: 6px;
 }
 
 #historico {

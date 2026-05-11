@@ -26,9 +26,11 @@ function carregarDados() {
     const card = document.createElement('div');
     card.className = 'vocab-card card';
     card.innerHTML =
+      '<div class="vocab-status status-' + item.status + '">' + item.status + '</div>' +
       '<div class="vocab-palavra">' + item.palavra + '</div>' +
-      '<div class="vocab-traducao">' + item.traducao + '</div>' +
-      '<p class="vocab-exemplo">' + item.exemplo + '</p>' +
+      '<div class="vocab-pronuncia">' + item.pronuncia + '</div>' +
+      '<div class="vocab-explicacao">' + item.explicacao + '</div>' +
+      '<p class="vocab-exemplo">"' + item.exemplo + '"</p>' +
       '<div class="vocab-aula">' + item.aula + '</div>';
     lista.appendChild(card);
   });
