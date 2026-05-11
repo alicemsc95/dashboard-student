@@ -13,6 +13,17 @@ async function carregarDados() {
 
   document.getElementById('teacher-note').textContent = "“" + dados.recado + "”";
 
+  const historico = document.getElementById('historico');
+  dados.historico.forEach(function(aula) {
+    const item = document.createElement('div');
+    item.className = 'historico-item card';
+    item.innerHTML =
+      '<div class="historico-data">' + aula.data + '</div>' +
+      '<div class="historico-tema">' + aula.tema + '</div>' +
+      '<p class="historico-obs">' + aula.observacao + '</p>';
+    historico.appendChild(item);
+  });
+
   const hoje = new Date();
   document.getElementById('today').textContent = hoje.toLocaleDateString('pt-BR', {
     weekday: 'long',

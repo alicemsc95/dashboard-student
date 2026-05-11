@@ -9,5 +9,22 @@
     "hora": "19:30",
     "tema": "Job Interviews — Part 2"
   },
-  "recado": "Você usou conectores novos sem perceber. Isso é evolução real."
+  "recado": "Você usou conectores novos sem perceber. Isso é evolução real.",
+  "historico": [
+    {
+      "data": "07 Mai",
+      "tema": "Job Interviews — Part 1",
+      "observacao": "Conduziu a simulação de entrevista do início ao fim sem travar. Grande salto."
+    },
+    {
+      "data": "30 Abr",
+      "tema": "Conectores e Fluência",
+      "observacao": "Usou however e although de forma natural pela primeira vez."
+    },
+    {
+      "data": "23 Abr",
+      "tema": "Vocabulário Profissional",
+      "observacao": "Incorporou 8 expressões novas. Pronúncia de 'colleagues' corrigida."
+    }
+  ]
 }

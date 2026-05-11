@@ -182,6 +182,54 @@ p {
   font-weight: 900;
 }
 
+#historico {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.historico-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.historico-data {
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.historico-tema {
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+}
+
+.historico-obs {
+  font-size: 16px;
+  color: #4a5e52;
+}
+
+@media (min-width: 800px) {
+  .historico-item {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 24px;
+  }
+
+  .historico-data {
+    min-width: 70px;
+  }
+
+  .historico-tema {
+    min-width: 260px;
+  }
+}
+
 @media (min-width: 800px) {
   nav {
     display: flex;
